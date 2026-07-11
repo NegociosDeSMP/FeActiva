@@ -1,0 +1,26 @@
+name: feactiva
+description: Aplicación católica juvenil FeActiva.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/musica3.mp3
+    - assets/images/feactiva_brand.png
+    - assets/images/feactiva_icon.png
+    - assets/bible/sample_bible.json

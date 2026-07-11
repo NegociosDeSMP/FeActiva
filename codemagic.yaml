@@ -1,0 +1,17 @@
+workflows:
+  feactiva_android_release:
+    name: FeActiva Android Release
+    max_build_duration: 60
+    instance_type: linux_x2
+
+    environment:
+      flutter: stable
+
+    scripts:
+      - flutter --version
+      - flutter create --platforms=android .
+      - flutter pub get
+      - flutter build apk --release
+
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk

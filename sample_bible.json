@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "translation": "FeActiva Sample",
+    "note": "Reemplaza este archivo con la Biblia católica completa en JSON o SQLite."
+  },
+  "verses": [
+    {
+      "testament": "NT",
+      "book": "Juan",
+      "chapter": 3,
+      "verse": 16,
+      "reference": "Juan 3, 16",
+      "text": "Porque tanto amó Dios al mundo que entregó a su Hijo único, para que todo el que cree en él no perezca, sino que tenga vida eterna."
+    },
+    {
+      "testament": "NT",
+      "book": "Filipenses",
+      "chapter": 4,
+      "verse": 13,
+      "reference": "Filipenses 4, 13",
+      "text": "Todo lo puedo en Cristo que me fortalece."
+    },
+    {
+      "testament": "AT",
+      "book": "Salmos",
+      "chapter": 23,
+      "verse": 1,
+      "reference": "Salmo 23, 1",
+      "text": "El Señor es mi pastor, nada me falta."
+    },
+    {
+      "testament": "AT",
+      "book": "Isaías",
+      "chapter": 41,
+      "verse": 10,
+      "reference": "Isaías 41, 10",
+      "text": "No temas, porque yo estoy contigo."
+    }
+  ]
+}
